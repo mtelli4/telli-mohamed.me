@@ -21,4 +21,4 @@ Dans le cadre d'un projet universitaire, nous devions configurer un serveur Apac
 ## Contexte et Objectifs
 
 La première étape fût d'installer un serveur Apache2 sur Raspberry Pi et de le configurer correctement.
-Ensuite nous devions installer nos sites web respectifs sur le serveur apache, en modifiant certains fichiers notamment ceux de type ".conf" de sorte à configurer localhost pour que les sites soient correctement hébergés.
+Ensuite nous devions héberger nos sites web respectifs sur le serveur apache, en modifiant certains fichiers notamment ceux de type ".conf" de sorte à configurer localhost pour que les sites soient correctement hébergés.
