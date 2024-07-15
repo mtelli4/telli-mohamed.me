@@ -4,14 +4,6 @@
 
 ## Développement de mon site web portfolio personnel, avec Astro
 
-title: Site web portfolio
-publishDate: 2024-07-13 20:00:00
-img: /assets/stock-1.jpg
-img_alt: Page d'accueil du site
-description: |
-Mon site portfolio
-tags:
-
 - Conception
 - Développement Web
 - Astro
