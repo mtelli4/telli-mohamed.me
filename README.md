@@ -1,35 +1,48 @@
 <<<<<<< HEAD
+
 # Site-portfolio
-Développement de mon site web portfolio personnel, avec Astro
-=======
-# Astro Starter Kit: Portfolio
 
-```sh
-npm create astro@latest -- --template portfolio
-```
+## Développement de mon site web portfolio personnel, avec Astro
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+title: Site web portfolio
+publishDate: 2024-07-13 20:00:00
+img: /assets/stock-1.jpg
+img_alt: Page d'accueil du site
+description: |
+Mon site portfolio
+tags:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Conception
+- Développement Web
+- Astro
+- Full-Stack
 
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
+---
 
-## 🧞 Commands
+## Création de mon site portfolio personnel
 
-All commands are run from the root of the project, from a terminal:
+> J'avais besoin de mon propre site web portfolio, c'est désormais chose faite.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Je pense qu'il n'y a pas trop d'intérêt à présenter ce projet, étant donné que si vous voyez ce texte, c'est justement parce que vous êtes sur ce projet.
 
-## 👀 Want to learn more?
+Je vais donc plutôt expliquer pourquoi et le comment je me suis lancé dans ce projet.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
->>>>>>> master
+Au fur et à mesure que j'avance dans ma carrière, j'acquiers de plus en plus de compétences et j'ai de plus en plus de projet.
+
+Cela faisait que mon CV devenait de plus en plus illisible, c'est pourquoi j'ai pensé qu'un site portfolio remédierait à ce problème.
+
+Aussi, j'avais besoin de me lancer enfin dans un projet personnel.
+
+Pour toutes ces raisons, quoi de mieux qu'un site web portfolio personnel, un projet personnel, qui en plus me servirait personnellement.
+
+#### J'avais aussi besoin d'apprendre à utiliser des frameworks
+
+Un des plus gros défauts du DUT, c'est qu'on nous apprend uniquement à utiliser des langages natifs, mais pas de frameworks.
+
+Or, lors de ma première année j'ai passé six mois à chercher une alternance, mais sans résultat, de même que lors de ma deuxième année j'ai mis sept mois avant de trouver un stage, et je me suis rendu compte que bon nombre d'offres demandaient en réalité des connaissances dans plusieurs technologies modernes : les frameworks.
+
+Il fallait donc que je me mette à en utiliser, dans le cadre d'un projet personnel.
+
+J'ai donc opté pour Astro, un framework de construction de sites web moderne qui permet de créer des sites web rapides et interactifs en utilisant une combinaison de HTML, CSS, JS, ainsi que plusieurs frameworks tels que React, Vue, Svelte, Node, TypeScript, Solid, Preact.
+
+Je trouve que Astro est un framework très intéressant mais pas assez utilisé selon moi, bien que de très grandes entreprises telles que Google ou Microsoft l'utilise, il reste assez peu recherché dans les critères de connaissance sur le marché du travail.
