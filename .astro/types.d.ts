@@ -126,54 +126,61 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"work": {
+"Apache.md": {
+	id: "Apache.md";
+  slug: "apache";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "ArithmeticArena.md": {
 	id: "ArithmeticArena.md";
   slug: "arithmeticarena";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "BellaCrosta.md": {
 	id: "BellaCrosta.md";
   slug: "bellacrosta";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "CarConnect.md": {
 	id: "CarConnect.md";
   slug: "carconnect";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "Card-Game.md": {
 	id: "Card-Game.md";
   slug: "card-game";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "Trellite.md": {
 	id: "Trellite.md";
   slug: "trellite";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "nested/Selfcog.md": {
 	id: "nested/Selfcog.md";
   slug: "nested/selfcog";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 "site-portfolio.md": {
 	id: "site-portfolio.md";
   slug: "site-portfolio";
   body: string;
   collection: "work";
-  data: any
+  data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
 };
 
@@ -185,5 +192,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = never;
+	export type ContentConfig = typeof import("./../src/content/config.js");
 }
