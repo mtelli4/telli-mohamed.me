@@ -125,14 +125,57 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"work": Record<string, {
-  id: string;
-  slug: string;
+		"work": {
+"ArithmeticArena.md": {
+	id: "ArithmeticArena.md";
+  slug: "arithmeticarena";
   body: string;
   collection: "work";
-  data: any;
-  render(): Render[".md"];
-}>;
+  data: any
+} & { render(): Render[".md"] };
+"BellaCrosta.md": {
+	id: "BellaCrosta.md";
+  slug: "bellacrosta";
+  body: string;
+  collection: "work";
+  data: any
+} & { render(): Render[".md"] };
+"CarConnect.md": {
+	id: "CarConnect.md";
+  slug: "carconnect";
+  body: string;
+  collection: "work";
+  data: any
+} & { render(): Render[".md"] };
+"Card-Game.md": {
+	id: "Card-Game.md";
+  slug: "card-game";
+  body: string;
+  collection: "work";
+  data: any
+} & { render(): Render[".md"] };
+"Trellite.md": {
+	id: "Trellite.md";
+  slug: "trellite";
+  body: string;
+  collection: "work";
+  data: any
+} & { render(): Render[".md"] };
+"nested/Selfcog.md": {
+	id: "nested/Selfcog.md";
+  slug: "nested/selfcog";
+  body: string;
+  collection: "work";
+  data: any
+} & { render(): Render[".md"] };
+"site-portfolio.md": {
+	id: "site-portfolio.md";
+  slug: "site-portfolio";
+  body: string;
+  collection: "work";
+  data: any
+} & { render(): Render[".md"] };
+};
 
 	};
 
