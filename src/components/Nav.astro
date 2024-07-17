@@ -15,7 +15,12 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 	{ label: 'GitHub', href: 'https://github.com/mtelli4', icon: 'github-logo' },
 	{ label: 'LinkedIn', href: 'https://linkedin.com/in/mohamed-telli', icon: 'linkedin-logo' },
 ];
----
+
+const cvLink: { label: string; href: string; icon: keyof typeof iconPaths } = { 
+    label: 'Télécharger CV', 
+    href: 'assets/CV_2024-07-17_Mohamed_TELLI.pdf', 
+    icon: 'download-logo' // Assurez-vous que cette icône existe dans IconPaths
+};---
 
 <nav>
 	<div class="menu-header">
@@ -104,7 +109,10 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 					))
 				}
 			</div>
-
+			<a href={cvLink.href} class="cv-button">
+				<Icon icon={cvLink.icon} />
+				<span>{cvLink.label}</span>
+		</a>
 			<div class="theme-toggle">
 				<ThemeToggle />
 			</div>
@@ -266,6 +274,23 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 	.social:focus {
 		color: var(--accent-text-over);
 	}
+	.cv-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-regular);
+  color: var(--accent-text-over);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: var(--text-sm);
+  transition: background-color var(--theme-transition);
+}
+
+.cv-button:hover,
+.cv-button:focus {
+  background-color: var(--accent-dark);
+}
 
 	.theme-toggle {
 		display: flex;
