@@ -1,0 +1,122 @@
+---
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import SkillsAccordion from '../components/SkillsAccordion.astro';
+
+
+const competences = [
+    {
+        id: "dev-app",
+        title: "Réaliser un développement d'application",
+        description: "Concevoir, coder, tester et intégrer des solutions informatiques répondant aux besoins des clients",
+        level: 3,
+        projects: [
+            {
+                title: "portfolio",
+                description: "Développement d'un portfolio professionnel avec Astro",
+                argumentation: "Ce projet m'a permis de mettre en pratique mes compétences en développement web moderne, en utilisant Astro pour créer une application performante et maintenable.",
+                img: "/assets/stock-1.jpg",
+                img_alt: "Aperçu du portfolio",
+                path : "site-portfolio"
+            }
+        ]
+    },
+    {
+        id: "opt-app",
+        title: "Optimiser des applications informatiques",
+        description: "Améliorer les performances et l'efficacité des applications",
+        level: 3,
+        projects: []
+    },
+    {
+        id: "admin-sys",
+        title: "Administrer des systèmes informatiques communicants complexes",
+        description: "Gérer et maintenir des infrastructures système et réseau",
+        level: 2,
+        projects: []
+    },
+    {
+        id: "gest-data",
+        title: "Gérer des données de l'information",
+        description: "Concevoir et administrer des bases de données, gérer les données de l'entreprise",
+        level: 2,
+        projects: []
+    },
+    {
+        id: "gestion-projet",
+        title: "Conduire un projet",
+        description: "Gérer un projet informatique en respectant les besoins clients et les contraintes",
+        level: 3,
+        projects: []
+    },
+    {
+        id: "travail-equipe",
+        title: "Travailler dans une équipe informatique",
+        description: "Collaborer efficacement au sein d'une équipe de développement",
+        level: 3,
+        projects: []
+    }
+];
+---
+
+<BaseLayout
+	title="Mes compétences | Telli Mohamed"
+	description="Découvrez la liste de mes compétences"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Mes Compétences"
+				tagline="Découvrez la liste des compétences que j'ai pu acquérir."
+				align="start"
+			/>
+
+<section id="competences" class="section">
+    <div class="competences-list">
+        {competences.map(comp => (
+            <SkillsAccordion {...comp} />
+        ))}
+    </div>
+</section>
+
+<script>
+    document.querySelectorAll('.accordion-header').forEach(button => {
+        button.addEventListener('click', () => {
+            const expanded = button.getAttribute('aria-expanded') === 'true';
+            const controlId = button.getAttribute('aria-controls');
+            if (!controlId) return;
+            
+            const content = document.getElementById(controlId);
+            if (!content) return;
+            
+            button.setAttribute('aria-expanded', (!expanded).toString());
+            content.hidden = expanded;
+        });
+    });
+</script>
+
+<style>
+    .competences-list {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+    }
+
+    .section {
+        padding: 2rem 0;
+    }
+
+    .section h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #2d3748;
+    }
+</style>
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>
