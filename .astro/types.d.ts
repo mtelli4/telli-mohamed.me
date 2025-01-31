@@ -161,6 +161,13 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
+"Selfcog.md": {
+	id: "Selfcog.md";
+  slug: "selfcog";
+  body: string;
+  collection: "work";
+  data: InferEntrySchema<"work">
+} & { render(): Render[".md"] };
 "Trellite.md": {
 	id: "Trellite.md";
   slug: "trellite";
@@ -168,9 +175,9 @@ declare module 'astro:content' {
   collection: "work";
   data: InferEntrySchema<"work">
 } & { render(): Render[".md"] };
-"nested/Selfcog.md": {
-	id: "nested/Selfcog.md";
-  slug: "nested/selfcog";
+"nested/EiffelTime.md": {
+	id: "nested/EiffelTime.md";
+  slug: "nested/eiffeltime";
   body: string;
   collection: "work";
   data: InferEntrySchema<"work">
@@ -192,5 +199,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("./../src/content/config.js");
+	export type ContentConfig = typeof import("../src/content/config.js");
 }
