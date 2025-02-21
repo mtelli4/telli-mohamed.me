@@ -1,7 +1,7 @@
 ---
 title: Application mobile de stimulation cognitive
 publishDate: 2024-07-10 00:00:00
-img: /assets/Test.png
+img: /assets/Cogtel/Test.png
 img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
 description: |
   Refonte et migration d'une application de stimulation cognitive
@@ -59,42 +59,42 @@ Pour cela j'ai reproduis dans le code les maquettes que ma cheffe de projet avai
 
 #### Ancien écran login
 
-> ![Ecran login selfcog](/assets/LoginSelfcog.png "Ecran login")
+> ![Ecran login selfcog](/assets/Cogtel/LoginSelfcog.png "Ecran login")
 
 #### Ancien écran formulaire
 
-> ![Ecran formulaire selfcog](/assets/FormulaireSelfcog.png "Ecran formulaire")
+> ![Ecran formulaire selfcog](/assets/Cogtel/FormulaireSelfcog.png "Ecran formulaire")
 
 #### Ancien écran login admin
 
-> ![Ecran login admin selfcog](/assets/LoginAdmin.png "Ecran login admin")
+> ![Ecran login admin selfcog](/assets/Cogtel/LoginAdmin.png "Ecran login admin")
 
 #### Ancien écran pour ajouter une étude clinique
 
-> ![Ecran ajout étude selfcog](/assets/AjoutEtude.png "Ecran ajout étude")
+> ![Ecran ajout étude selfcog](/assets/Cogtel/AjoutEtude.png "Ecran ajout étude")
 
 #### Anciens écrans de résultat d'étude clinique
 
-> ![Ecran résultat étude selfcog](/assets/ResultatsEtude1.png "Ecran résultat étude") ![Ecran résultat étude 2 selfcog](/assets/ResultatsEtude2.png "Ecran résultat étude 2") ![Ecran résultat étude 3 selfcog](/assets/ResultatsEtude3.png "Ecran résultat étude 3")
+> ![Ecran résultat étude selfcog](/assets/Cogtel/ResultatsEtude1.png "Ecran résultat étude") ![Ecran résultat étude 2 selfcog](/assets/Cogtel/ResultatsEtude2.png "Ecran résultat étude 2") ![Ecran résultat étude 3 selfcog](/assets/Cogtel/ResultatsEtude3.png "Ecran résultat étude 3")
 
 #### Ancien écran de gestion d'étude
 
-> ![Ecran gestion étude selfcog](/assets/GestionEtudes.png "Ecran gestion étude")
+> ![Ecran gestion étude selfcog](/assets/Cogtel/GestionEtudes.png "Ecran gestion étude")
 
 ### Lancement de SelfCog depuis CogTel
 
-> ![Ecran cogtel selfcog](/assets/EcranCogtel.png "Ecran cogtel selfcog")
+> ![Ecran cogtel selfcog](/assets/Cogtel/EcranCogtel.png "Ecran cogtel selfcog")
 
 ### Après
 
 #### Nouveaux écrans de tutoriel
 
-> ![Ecran tuto1 selfcog](/assets/Tuto1.png "Ecran tuto1") ![Ecran tuto2 selfcog](/assets/Tuto2.png "Ecran tuto2") ![Ecran tuto3 selfcog](/assets/Tuto3.png "Ecran tuto3")
+> ![Ecran tuto1 selfcog](/assets/Cogtel/Tuto1.png "Ecran tuto1") ![Ecran tuto2 selfcog](/assets/Cogtel/Tuto2.png "Ecran tuto2") ![Ecran tuto3 selfcog](/assets/Cogtel/Tuto3.png "Ecran tuto3")
 
 #### Exemple de nouveaux écrans d'instruction
 
-> ![Ecran instruction1 selfcog](/assets/Instruction1.png "Ecran instruction1") ![Ecran instruction2 selfcog](/assets/Instruction2.png "Ecran instruction2")
+> ![Ecran instruction1 selfcog](/assets/Cogtel/Instruction1.png "Ecran instruction1") ![Ecran instruction2 selfcog](/assets/Cogtel/Instruction2.png "Ecran instruction2")
 
 #### Exemple de nouvel écran d'exercice pendant un test
 
-> ![Ecran Test selfcog](/assets/Test.png "Ecran test")
+> ![Ecran Test selfcog](/assets/Cogtel/Test.png "Ecran test")

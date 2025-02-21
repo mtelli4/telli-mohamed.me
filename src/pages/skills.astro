@@ -16,12 +16,65 @@ const competences = [
         level: 3,
         projects: [
             {
+                title: "Eiffel Time",
+                description: "Développement d'une application web et mobile de gestion scolaire",
+                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
+                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
+                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
+                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
+                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
+
+                img: "/assets/EiffelTime/Login_screen.png",
+                img_alt: "Page d'accueil",
+                path : "nested/eiffeltime"
+            },
+            {
                 title: "portfolio",
                 description: "Développement d'un portfolio professionnel avec Astro",
-                argumentation: "Ce projet m'a permis de mettre en pratique mes compétences en développement web moderne, en utilisant Astro pour créer une application performante et maintenable.",
+                argumentation: "",
                 img: "/assets/stock-1.jpg",
                 img_alt: "Aperçu du portfolio",
                 path : "site-portfolio"
+            },
+            {
+                title: "Selfcog",
+                description: "Intégration et refonte d'une application Android de stimulation cognitive",
+                argumentation: "",
+                img: "/assets/Cogtel/EcranCogtel.png",
+                img_alt: "Page d'accueil",
+                path : "selfcog"
+            },
+            {
+                title: "Arithmetic Arena",
+                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
+                argumentation: "",
+                img: "/assets/ArithmeticArena/stock-2.jpg",
+                img_alt: "Aperçu du portfolio",
+                path : "arithmeticarena"
+            },
+            {
+                title: "Bella Crosta",
+                description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
+                argumentation: "",
+                img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
+                img_alt: "Page d'accueil",
+                path : "bellacrosta"
+            },
+            {
+                title: "Trellite",
+                description: "Développement d'une application Java de gestion de projet",
+                argumentation: "",
+                img: "/assets/Trellite/Tableau_de_bord.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
+            },
+            {
+                title: "CarConnect",
+                description: "Développement d'un site web de start-up de location de voitures",
+                argumentation: "",
+                img: "/assets/CarConnect/Voiture2vidéo.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
             }
         ]
     },
@@ -30,35 +83,223 @@ const competences = [
         title: "Optimiser des applications informatiques",
         description: "Améliorer les performances et l'efficacité des applications",
         level: 3,
-        projects: []
+        projects: [
+        {
+                title: "Eiffel Time",
+                description: "Développement d'une application web et mobile de gestion scolaire",
+                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
+                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
+                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
+                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
+                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
+
+                img: "/assets/EiffelTime/Login_screen.png",
+                img_alt: "Page d'accueil",
+                path : "nested/eiffeltime"
+            },
+            {
+                title: "Selfcog",
+                description: "Intégration et refonte d'une application Android de stimulation cognitive",
+                argumentation: "",
+                img: "/assets/Cogtel/EcranCogtel.png",
+                img_alt: "Page d'accueil",
+                path : "selfcog"
+            },
+            {
+                title: "Arithmetic Arena",
+                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
+                argumentation: "",
+                img: "/assets/ArithmeticArena/stock-2.jpg",
+                img_alt: "Aperçu du portfolio",
+                path : "arithmeticarena"
+            },
+            {
+                title: "Bella Crosta",
+                description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
+                argumentation: "",
+                img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
+                img_alt: "Page d'accueil",
+                path : "bellacrosta"
+            },
+            {
+                title: "Trellite",
+                description: "Développement d'une application Java de gestion de projet",
+                argumentation: "",
+                img: "/assets/Trellite/Tableau_de_bord.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
+            },
+            {
+                title: "Jeu de cartes",
+                description: "Développement d'un jeu de cartes en C++",
+                argumentation: "",
+                img: "/assets/Cardgame/Génération_cartes.png",
+                img_alt: "",
+                path : "jeucartes"
+            }
+        ]
     },
     {
         id: "admin-sys",
         title: "Administrer des systèmes informatiques communicants complexes",
         description: "Gérer et maintenir des infrastructures système et réseau",
         level: 2,
-        projects: []
+        projects: [
+            {
+                title: "Aritmetic Arena",
+                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
+                argumentation: "",
+                img: "/assets/ArithmeticArena/stock-2.jpg",
+                img_alt: "",
+                path : "arithmeticarena"
+            },
+            {
+                title: "trellite",
+                description: "Développement d'une application Java de gestion de projet",
+                argumentation: "",
+                img: "/assets/Trellite/Tableau_de_bord.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
+            },
+            {
+                title: "Apache2",
+                description: "Installation et configuration d'un serveur web Apache2 sur un raspberry pi",
+                argumentation: "",
+                img: "/assets/Apache2/raspberrypi-apache-logo.png",
+                img_alt: "",
+                path : "apache"
+            }
+        ]
     },
     {
         id: "gest-data",
         title: "Gérer des données de l'information",
         description: "Concevoir et administrer des bases de données, gérer les données de l'entreprise",
         level: 2,
-        projects: []
+        projects: [
+        {
+                title: "Eiffel Time",
+                description: "Développement d'une application web et mobile de gestion scolaire",
+                argumentation: "",
+                img: "/assets/EiffelTime/Login_screen.png",
+                img_alt: "Page d'accueil",
+                path : "nested/eiffeltime"
+            },
+        {
+                title: "Bella Crosta",
+                description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
+                argumentation: "",
+                img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
+                img_alt: "Page d'accueil",
+                path : "bellacrosta"
+            },
+            {
+                title: "Trellite",
+                description: "Développement d'une application Java de gestion de projet",
+                argumentation: "",
+                img: "/assets/Trellite/Tableau_de_bord.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
+            }
+        ]
     },
     {
         id: "gestion-projet",
         title: "Conduire un projet",
         description: "Gérer un projet informatique en respectant les besoins clients et les contraintes",
         level: 3,
-        projects: []
+        projects: [
+        {
+                title: "Eiffel Time",
+                description: "Développement d'une application web et mobile de gestion scolaire",
+                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
+                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
+                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
+                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
+                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
+
+                img: "/assets/EiffelTime/Login_screen.png",
+                img_alt: "Page d'accueil",
+                path : "nested/eiffeltime"
+            },
+            {
+                title: "Arithmetic Arena",
+                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
+                argumentation: "",
+                img: "/assets/ArithmeticArena/stock-2.jpg",
+                img_alt: "Aperçu du portfolio",
+                path : "arithmeticarena"
+            },
+            {
+                title: "Bella Crosta",
+                description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
+                argumentation: "",
+                img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
+                img_alt: "Page d'accueil",
+                path : "bellacrosta"
+            },
+            {
+                title: "Trellite",
+                description: "Développement d'une application Java de gestion de projet",
+                argumentation: "",
+                img: "/assets/Trellite/Tableau_de_bord.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
+            },
+        ]
     },
     {
         id: "travail-equipe",
         title: "Travailler dans une équipe informatique",
         description: "Collaborer efficacement au sein d'une équipe de développement",
         level: 3,
-        projects: []
+        projects: [
+        {
+                title: "Eiffel Time",
+                description: "Développement d'une application web et mobile de gestion scolaire",
+                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
+                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
+                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
+                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
+                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
+
+                img: "/assets/EiffelTime/Login_screen.png",
+                img_alt: "Page d'accueil",
+                path : "nested/eiffeltime"
+            },
+            {
+                title: "Selfcog",
+                description: "Intégration et refonte d'une application Android de stimulation cognitive",
+                argumentation: "",
+                img: "/assets/Cogtel/EcranCogtel.png",
+                img_alt: "Page d'accueil",
+                path : "selfcog"
+            },
+            {
+                title: "Arithmetic Arena",
+                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
+                argumentation: "",
+                img: "/assets/ArithmeticArena/stock-2.jpg",
+                img_alt: "Aperçu du portfolio",
+                path : "arithmeticarena"
+            },
+            {
+                title: "Bella Crosta",
+                description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
+                argumentation: "",
+                img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
+                img_alt: "Page d'accueil",
+                path : "bellacrosta"
+            },
+            {
+                title: "Trellite",
+                description: "Développement d'une application Java de gestion de projet",
+                argumentation: "",
+                img: "/assets/Trellite/Tableau_de_bord.png",
+                img_alt: "Page d'accueil",
+                path : "trellite"
+            },
+        ]
     }
 ];
 ---
