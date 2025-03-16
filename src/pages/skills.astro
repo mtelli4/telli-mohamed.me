@@ -94,56 +94,13 @@ const competences = [
         {
                 title: "Eiffel Time",
                 description: "Développement d'une application web et mobile de gestion scolaire",
-                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
-                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
-                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
-                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
-                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
-
+                argumentation: `Dans ce projet, j'ai optimisé l'application à travers la réutilisation de composants, notamment grâce à un dossier shared contenant les composants, les types, les API, les hooks, la logique et les assets partagés entre chaque plateforme, pour éviter la duplication de code et faciliter la maintenance de l'application.\n\n
+                Cette optimisation a permis de réduire le temps de développement de l'application par 3, permettant d'avoir une application disponible sur web, iOS et Android en même temps.\n\n`,
                 img: "/assets/EiffelTime/Login_screen.png",
                 img_alt: "Page d'accueil",
                 path : "nested/eiffeltime"
             },
-            {
-                title: "Selfcog",
-                description: "Intégration et refonte d'une application Android de stimulation cognitive",
-                argumentation: "",
-                img: "/assets/Cogtel/EcranCogtel.png",
-                img_alt: "Page d'accueil",
-                path : "selfcog"
-            },
-            {
-                title: "Arithmetic Arena",
-                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
-                argumentation: "",
-                img: "/assets/ArithmeticArena/stock-2.jpg",
-                img_alt: "Aperçu du portfolio",
-                path : "arithmeticarena"
-            },
-            {
-                title: "Bella Crosta",
-                description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
-                argumentation: "",
-                img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
-                img_alt: "Page d'accueil",
-                path : "bellacrosta"
-            },
-            {
-                title: "Trellite",
-                description: "Développement d'une application Java de gestion de projet",
-                argumentation: "",
-                img: "/assets/Trellite/Tableau_de_bord.png",
-                img_alt: "Page d'accueil",
-                path : "trellite"
-            },
-            {
-                title: "Jeu de cartes",
-                description: "Développement d'un jeu de cartes en C++",
-                argumentation: "",
-                img: "/assets/Cardgame/Génération_cartes.png",
-                img_alt: "",
-                path : "jeucartes"
-            }
+            
         ]
     },
     {
@@ -153,25 +110,9 @@ const competences = [
         level: 2,
         projects: [
             {
-                title: "Aritmetic Arena",
-                description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
-                argumentation: "",
-                img: "/assets/ArithmeticArena/stock-2.jpg",
-                img_alt: "",
-                path : "arithmeticarena"
-            },
-            {
-                title: "trellite",
-                description: "Développement d'une application Java de gestion de projet",
-                argumentation: "",
-                img: "/assets/Trellite/Tableau_de_bord.png",
-                img_alt: "Page d'accueil",
-                path : "trellite"
-            },
-            {
                 title: "Apache2",
                 description: "Installation et configuration d'un serveur web Apache2 sur un raspberry pi",
-                argumentation: "",
+                argumentation: `Ce projet m'a permis de mettre en place un serveur web Apache2 sur un raspberry pi, pour héberger plusieurs site web statiques.`,
                 img: "/assets/Apache2/raspberrypi-apache-logo.png",
                 img_alt: "",
                 path : "apache"
@@ -187,7 +128,10 @@ const competences = [
         {
                 title: "Eiffel Time",
                 description: "Développement d'une application web et mobile de gestion scolaire",
-                argumentation: "",
+                argumentation: `Derrière ce projet complexe se cache une base de données en Postgresql, qui permet de stocker les informations notamment des utilisateurs, des cours, des notes, \n\n
+                des absences, des retards, des moyennes, des salles, des modules, des groupes, des promotions, des enseignants, des élèves, des rôles, \n\n
+                des permissions, des notifications, des messages et des fichiers. Dans ce projet, ayant principalement travaillé sur le front-end de l'application,
+                j'ai pu réaliser la page d'administration permettant à l'administrateur de gérer les utilisateurs à travers une interface, sans avoir à rentrer dans le code.`,
                 img: "/assets/EiffelTime/Login_screen.png",
                 img_alt: "Page d'accueil",
                 path : "nested/eiffeltime"
@@ -195,7 +139,9 @@ const competences = [
         {
                 title: "Bella Crosta",
                 description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
-                argumentation: "",
+                argumentation: `Dans ce projet, j'ai pu concevoir la BDD à travers un MCD (Modèle Conceptuel de Données) ainsi qu'un SR (Schéma Relationnel).\n\n
+                J'ai utilisé JDBC (Java Database Connectivity) pour effectuer des requêtes sur la base de données, pour afficher mais aussi mettre à jour automatiquement les données,
+                notamment pour la gestion des commandes, et des ingrédients et des stocks.\n\n`,
                 img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
                 img_alt: "Page d'accueil",
                 path : "bellacrosta"
@@ -203,7 +149,7 @@ const competences = [
             {
                 title: "Trellite",
                 description: "Développement d'une application Java de gestion de projet",
-                argumentation: "",
+                argumentation: "Dans ce projet j'ai pu concevoir la BDD à travers un MCD, un SR et un dictionnaires de données.",
                 img: "/assets/Trellite/Tableau_de_bord.png",
                 img_alt: "Page d'accueil",
                 path : "trellite"
@@ -219,12 +165,11 @@ const competences = [
         {
                 title: "Eiffel Time",
                 description: "Développement d'une application web et mobile de gestion scolaire",
-                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
-                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
-                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
-                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
-                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
-
+                argumentation: `Dans ce projet, j'ai pu recueillir les besoins des principaux futurs utilisateurs concernés par l'application, principalement \n\n
+                la secrétaire, le chef du département informatique et les élèves. Suite à ces retours, j'ai analysé ces besoins et le cahier des charges, afin
+                de définir les fonctionnalités de l'application à travers un PBS (Product Breakdown Structure).
+                J'ai ensuite organisé les étapes du projets en concevant un WBS (Work Breakdown Structure).\n\n
+                Ces étapes ont permis de clarifier les tâches à réaliser, donnant ainsi à toute l'équipe une vision claire des objectifs à atteindre.\n\n`,
                 img: "/assets/EiffelTime/Login_screen.png",
                 img_alt: "Page d'accueil",
                 path : "nested/eiffeltime"
@@ -232,7 +177,8 @@ const competences = [
             {
                 title: "Arithmetic Arena",
                 description: "Développement d'un jeu vidéo éducatif pour faciliter l'apprentissage des mathématiques",
-                argumentation: "",
+                argumentation: `Dans ce projet, je me suis chargé de réaliser les spécifications techniques et fonctionnelles, de lister les tâches et
+                de planifier et organiser le projet à travers un diagramme de GANTT et un PERT.`,
                 img: "/assets/ArithmeticArena/stock-2.jpg",
                 img_alt: "Aperçu du portfolio",
                 path : "arithmeticarena"
@@ -240,7 +186,7 @@ const competences = [
             {
                 title: "Bella Crosta",
                 description: "Développement d'une application Java de gestion de commandes d'une pizzeria",
-                argumentation: "",
+                argumentation: `Dans ce projet, j'ai pu concevoir le diagramme PBS, le WBS, le diagramme de GANTT et le PERT.`,
                 img: "/assets/BellaCrosta/ConnexionPizzaiolo.jpeg",
                 img_alt: "Page d'accueil",
                 path : "bellacrosta"
@@ -248,7 +194,7 @@ const competences = [
             {
                 title: "Trellite",
                 description: "Développement d'une application Java de gestion de projet",
-                argumentation: "",
+                argumentation: "Dans ce projet, je me suis chargé du PERT.",
                 img: "/assets/Trellite/Tableau_de_bord.png",
                 img_alt: "Page d'accueil",
                 path : "trellite"
@@ -264,12 +210,10 @@ const competences = [
         {
                 title: "Eiffel Time",
                 description: "Développement d'une application web et mobile de gestion scolaire",
-                argumentation: `Eiffel Time est un projet de réalisation d'une application web et mobile de gestion scolaire.\n\n
-                Dans ce projet, je me suis chargé à la fois du design de l'UI/UX, mais aussi du développement du front-end.\n\n
-                Pour la phase de conception et de prototypage, j'ai conçu la majorités des maquettes et des prototypes de l'application web et de l'application mobile dans un premier temps, avant de passer à la phase de développement.\n\n
-                Au début de la phase de développement, j'ai mis en place la configuration de la structure du projet et de ses dépendances, pour assurer son bon fonctionnement sur web, iOS et Android, à travers des composants partagés entre chaque plateforme.\n\n
-                J'ai ensuite développé la majorité de l'UI de cette application, notamment l'emploi du temps, les notes, les moyennes, les absences et retards, la partie administration et la barre de navigation latérale sur web, mais aussi celle sur mobile`,
-
+                argumentation: `Dans ce projet, j'ai travaillé en collaboration avec 5 personnes, dont 3 développeurs back-end, 1 personne qui s'est chargée de la conception et l'implémentation
+                de la BDD, et 1 chef de projet.\n\n
+                J'ai pu travailler en étroite collaboration avec le chef de projet qui m'a assisté dans ma tâche de designer UI/UX pour la conception des maquettes et des prototypes.\n\n.
+                J'ai également travaillé avec le chargé de BDD pour récupérer réaliser les interactions bdd telles que l'affichage, la mise à jour et la suppression des données, à travers le front-end.\n\n`,
                 img: "/assets/EiffelTime/Login_screen.png",
                 img_alt: "Page d'accueil",
                 path : "nested/eiffeltime"
